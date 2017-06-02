@@ -24,3 +24,13 @@ Sample Output:
 
 Application Description:
 
+The workflow for utilizing this application essentially has three stages…
+
+1) Team members input their allocated man hours into the data input file, which is a protected excel spread sheet.  At the end of every week, they email the spread sheet to the service department manager.
+
+2) The data is uploaded into the database using the GUI which allows for the selection of multiple files at a time.
+
+3) Using the GUI the manager can define how the database is queried.  Next, a new excel spreadsheet is generated and the data is plotted and tabulated.
+
+The major challenge I encountered with this project was the timeline.  My manager wanted a functioning beta version in 11 days.  I was able to deliver, but I had to cut some corners and keep things very basic.  The final version of this was written in Python & SQL which was much more powerful with far more features.  See the TimeTrax_06-24-2017 repository for the final version of this application.
+
